@@ -2,7 +2,7 @@ var Promise = require('bluebird');
 require('./lib/pdf.js');
 require('./lib/compatibility.js');
 
-function PDFtoText(input) {
+module.exports = function(input) {
     return new Promise(function (resolve, reject) {
         PDFJS.getDocument(input).then((pdfDocument) => {
             for (let pageNum = 1; pageNum <= pdfDocument.numPages; pageNum++) {
@@ -30,5 +30,3 @@ function PDFtoText(input) {
         });
     });
 };
-
-module.exports = PDFtoText;
