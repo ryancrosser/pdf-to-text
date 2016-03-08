@@ -1,0 +1,22 @@
+{
+  "name": "pdf-to-text",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryancrosser/PDFtoText.git"
+  },
+  "author": "Ryan Crosser <Crosser_Ryan@bah.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ryancrosser/PDFtoText/issues"
+  },
+  "homepage": "https://github.com/ryancrosser/PDFtoText#readme",
+  "dependencies": {
+    "bluebird": "3.3.4"
+  }
+}
